@@ -1,0 +1,73 @@
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(Immagini/san\ marco.jpg);
+    background-size: 100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+h3{
+    transition-delay: 1s;
+    color: white;
+    position: absolute;
+    margin-right: 5px;
+}
+h3:hover{
+    color:transparent;
+    position: absolute;
+    
+}
+h3:hover p{
+    color: white;
+}
+.testo{
+    transition-delay: 0.6s;
+    float: right;
+    width: 185px;
+    height: 80px;
+    opacity: 1;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    transition-property: width, border,height,opacity;
+    transition-duration: 2s;
+    }
+    .testo:hover {
+    width: 30%;
+    height: 720px;
+    opacity: 0.8;
+    border: 10px solid #ffffff;
+    }
+    p{
+    float: right;
+    color: transparent;
+    transition-property: color;
+    transition-duration: 2s;
+    position: fixed;
+    padding: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    }
+    p:hover{
+        text-align: justify;
+        padding: 20px;
+        color: white;
+        transition-delay: 1s;
+        font-size: 100%;
+        margin-right: 15px;
+    }
+    .testo:hover h3{
+color: transparent;
+position: absolute;
+    }
+    .titolo{
+        padding-left: 37.5%;
+        position: absolute;
+        color: white;
+    }
+    .bordo_titolo{
+        background-color: #000000;  
+        border: 2px solid white;
+        border-radius: 20px;
+        opacity: 0.9;
+        width: 150%;
+    }
